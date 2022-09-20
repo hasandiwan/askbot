@@ -29,16 +29,6 @@ Installation
 Installation was tested with Python 3.7 with the following commands:
 
     pip install --upgrade pip
-    pip install setuptools-rust
-    python setup.py install
-    askbot-setup # answer the questions or use parameters to askbot-setup
-    cd <root_dir> # substitute <root_dir> with the actual directory, default is `askbot_site`
-    python manage.py migrate # assumes that the database specified by askbot-setup is available
-
-The last command above will create a working Django project in the project root
-directory that you specify with the `askbot-setup` script.
-
-For the deployment, follow the general Django deployment documentation.
 
 Installation
 ============
